@@ -22,18 +22,13 @@ The project was implemented using **Python** with the following steps:
     - Conducted a **Pre-Ringing Check** to confirm the IRF peak aligns perfectly at 128 samples without non-causal oscillations.
 
 ## 📂 File Structure
-- `code.py`: Main script for system identification and filter generation. (Replace with your actual filename)
 - `data/`: Contains the given input/output wav files and the desired FRF (.npy).
+- `code.py`: Main script for system identification and filter generation.
 
 ## 📊 Results
 | Design Method | MSE | PEAQ Score |
 | :--- | :--- | :--- |
 | **Final Version (Inverse Compensation)** | **1.66E-06** | **-2.2778** |
-
-### Key Findings
-- **Bulk Delay Removal**: Essential for preventing the compensator from becoming non-causal.
-- **Linear vs. Circular Convolution**: Proper zero-padding (FFT length of 8192) was used to avoid time-domain aliasing.
-- **Phase Correction**: Successfully transformed the original non-linear phase into a linear phase response.
 
 ## 💻 Requirements
 - Python 3.10
