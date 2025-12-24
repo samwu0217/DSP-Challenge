@@ -28,7 +28,7 @@ The project was implemented using **Python** with the following steps:
 ## 📊 Results
 | Design Method | Mean Squared Error (MSE) | Perceptual Evaluation of Audio Quality (PEAQ) |
 | :--- | :--- | :--- |
-| **Final Version (Inverse Compensation)** | **1.66E-06** | **-2.2778** |
+| **Inverse Compensation** | **1.66E-06** | **-2.2778** |
 
 ## 💻 Requirements
 - Python 3.10
